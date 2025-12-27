@@ -1,6 +1,6 @@
 # Help Study Abroad – Frontend Technical Assessment
 
-## 📌 Project Overview
+## Project Overview
 This project is a **modern admin dashboard application** built using **Next.js (App Router)**, **Material UI (MUI)**, and **Zustand**.
 It integrates with the **DummyJSON public API** to implement authentication, users management, and products management.
 
@@ -8,7 +8,7 @@ The goal of this project is to demonstrate clean frontend architecture, proper s
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - **Next.js (App Router)**
 - **React**
@@ -18,7 +18,7 @@ The goal of this project is to demonstrate clean frontend architecture, proper s
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 src/
 ├── app/
@@ -50,7 +50,7 @@ src/
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 - Authentication is handled using the **DummyJSON Login API**
 - On successful login:
@@ -67,7 +67,7 @@ src/
 
 ---
 
-## 🧠 Why Zustand?
+## Why Zustand?
 
 Zustand was chosen for state management because:
 
@@ -83,32 +83,32 @@ Zustand was chosen for state management because:
 
 ---
 
-## 📦 Features
+## Features
 
-### ✅ Authentication
+### Authentication
 - Login using DummyJSON API
 - Token persistence using `accessToken`
 - Protected routes using `ProtectedRoute` component
 
-### 👤 Users Module
+### Users Module
 - Users list with API-side pagination
 - User search
 - Single user detail page
 
-### 🛒 Products Module
+### Products Module
 - Responsive product grid view
 - API-side pagination
 - Product search
 - Single product detail page
 
-### 🎨 UI / UX
+### UI / UX
 - Fully built using **Material UI**
 - Responsive grid layout
 - Clean and consistent design
 
 ---
 
-## ⚡ Performance Optimizations
+## Performance Optimizations
 
 - API-side pagination to avoid large payloads
 - Zustand state caching to reduce unnecessary API calls
@@ -117,7 +117,7 @@ Zustand was chosen for state management because:
 
 ---
 
-## 🧪 Edge Cases Handled
+## Edge Cases Handled
 
 - DummyJSON authentication uses `accessToken` instead of `token`
 - Dynamic route params handled correctly in App Router
@@ -126,6 +126,6 @@ Zustand was chosen for state management because:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 npm run dev
